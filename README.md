@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Passkey Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple webpage with two buttons:
+- Create Local Passkey: will request your browser to create a Passkey on your current device
+- Create External Passkey: will request your browser to create a Passkey on another device
+- Use Passkey: will request the browser to sign with the Passkey created wither on your current or external device
 
 ## Available Scripts
 

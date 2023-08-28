@@ -1,4 +1,4 @@
-const PasskeyCreate = async () => {
+const PasskeyCreateExternal = async () => {
   return await navigator.credentials
     .create({
       publicKey: publicKeyCredentialCreationOptions,
@@ -40,10 +40,10 @@ const publicKeyCredentialCreationOptions = {
   //   transports: ['internal'],
   // }],
   authenticatorSelection: {
-    authenticatorAttachment: "platform",
+    authenticatorAttachment: "cross-platform",
     requireResidentKey: false,
   },
 };
 
-export default PasskeyCreate;
+export default PasskeyCreateExternal;
 

@@ -17,7 +17,7 @@ const PasskeyGet = async () => {
       publicKey: publicKeyCredentialRequestOptions,  
       signal: abortController.signal
     }).then((credential) => {
-        console.log("Credential retrieved:", credential);
+        console.log("Retrieved verified credential:", credential);
     });  
 };
 
